@@ -4,6 +4,7 @@
   "description": "Prototype of two-factor using hashed phone numbers",
   "main": "index.js",
   "scripts": {
+    "prestart": "dotenv ./prestart.mjs &",
     "start": "dotenv node index.js"
   },
   "author": "",
@@ -18,6 +19,7 @@
     "twilio": "^3.68.0"
   },
   "devDependencies": {
-    "dotenv-cli": "^4.0.0"
+    "dotenv-cli": "^4.0.0",
+    "zx": "^4.2.0"
   }
 }
