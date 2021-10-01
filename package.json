@@ -1,0 +1,23 @@
+{
+  "name": "soma-security-prototype",
+  "version": "0.0.1",
+  "description": "Prototype of two-factor using hashed phone numbers",
+  "main": "index.js",
+  "scripts": {
+    "start": "dotenv node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.1.2",
+    "passport": "^0.5.0",
+    "passport-local": "^1.0.0",
+    "twilio": "^3.68.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^4.0.0"
+  }
+}

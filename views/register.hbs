@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>{{message}}</p>
+    <form action="/register" method="post">
+      <fieldset>
+        <legend>Register</legend>
+
+        <input type="text" id="username" name="username">
+        <label for="username">Username</label><br/>
+
+        <input type="text" id="password" name="password">
+        <label for="password">Password</label><br/>
+
+        <input type="tel" id="phoneNo" name="phoneNo" format="+1[0-9]{10}">
+        <label for="phoneNo">Phone Number</label><br/>
+
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

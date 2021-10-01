@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form action="/reset" method="post">
+      <fieldset>
+        <legend>Register</legend>
+
+        <input type="hidden" id="username" name="username" value="{{username}}">
+        <input type="hidden" id="token" name="token" value="{{token}}">
+
+        <input type="text" id="password" name="password">
+        <label for="password">New password</label><br/>
+
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
