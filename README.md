@@ -12,4 +12,6 @@ is initiated by the user texting the server's phone number.
 To reset the password the user must text the server and the server
 responds with a text link containing a reset token.
 
+**NOTE:** This code is insecure and should not be used in production.
+
 [1]: https://theabbie.github.io/blog/2FA-phone-number-hashing
