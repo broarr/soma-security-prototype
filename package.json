@@ -4,12 +4,13 @@
   "description": "Prototype of two-factor using hashed phone numbers",
   "main": "index.js",
   "scripts": {
-    "prestart": "dotenv ./prestart.mjs &",
-    "start": "dotenv node index.js"
+    "start": "dotenv node index.js",
+    "lint": "standard"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "connect-ensure-login": "^0.1.1",
     "connect-flash": "^0.1.1",
     "express": "^4.17.1",
     "express-session": "^1.17.2",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "dotenv-cli": "^4.0.0",
+    "standard": "^16.0.4",
     "zx": "^4.2.0"
   }
 }
